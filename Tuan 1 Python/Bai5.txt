@@ -1,0 +1,9 @@
+git init 			: tạo 1 thư mục .git
+git add . 			: thêm vào thư mục .git
+git commit -m “first commit”	: dùng khi tạo mới kho lưu trữ github
+git commit -m “mô tả”		: xác nhận lưu lại trạng thái
+git status 			: xem trạng thái
+git clone "link" 		: lấy từ trên github về máy
+git pull 			: cập nhật mới nhất từ github về máy
+git push origin master 		: đẩy dữ liệu lên github
+git remote add origin ""	: cài cấu hình dự án lên kho lưu trữ
