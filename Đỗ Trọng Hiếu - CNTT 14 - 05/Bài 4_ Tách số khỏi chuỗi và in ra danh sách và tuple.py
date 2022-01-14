@@ -8,7 +8,7 @@ data = input("Nhập vào các giá trị: ")
     30 - 12 - 2002
 """
 
-l = re.findall(r'\d+', data)
+l = re.findall(r'\d+', data) #Nếu chỉu in 1 số thì l = re.findall(r'\d', data)
 t = tuple(l)
 
 print(data)
